@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp-Converter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body style="font-family: 'Montserrat', sans-serif;">
+    <div class="h-screen flex items-center justify-center flex-col bg-[#FFC5C5]">
+        <div class="bg-[#F4F2DE] w-1/2 h-52 rounded-md shadow-md shadow-[0_8px_30px_rgb(0,0,0,0.12)]">
+            <p class="text-center mb-9 mt-5 text-2xl font-extrabold">Temperature Converter</p>
+            <div class="flex items-center justify-center space-x-12">
+                <div class="p-5">
+                    <p class="text-center mb-4">Celcius</p>
+                    <input type="number" value="0" class="rounded-md shadow-lg box-shadow: 0 3px 10px rgb(0,0,0,0.2) pl-3" id="input1">
+                </div>
+                <div class="p-5">
+                    <p class="text-center mb-4 ">Fahrenheit</p>
+                    <input type="number" value="32" class="rounded-md shadow-lg box-shadow: 0 3px 10px rgb(0,0,0,0.2) pl-3" id="input2">
+                </div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
